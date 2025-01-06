@@ -22,9 +22,9 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/Baii_Ji")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002122152204'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+_-9trQQYYFczNTJl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002434598772').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sandhubot00:Shandhu@cluster0.ipni4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "@mongodb+srv://sukhwinder01010101:W5VWYsTQYchbYZst@cluster0.uuazn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sukhwinder01010101")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Akmovie')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002122152204'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/8Hn.jpg')
