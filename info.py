@@ -21,14 +21,14 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://telegram.me/Baii_Ji")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002122152204'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+_-9trQQYYFczNTJl')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002434598772').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002487267521').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Sandhu:Sandhu@mrtamilkid.m9cuk.mongodb.net/?retryWrites=true&w=majority&appName=MrTamilKiD")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Sandhu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Akmovie')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002122152204'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/8Hn.jpg')
-START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/eede835fb3c37e07c9cee.jpg')
+START_IMG = environ.get('START_IMG', "https://envs.sh/fHy.jpg https://envs.sh/fge.jpg https://envs.sh/fra.jpg https://envs.sh/fHV.jpg https://envs.sh/fsB.jpg https://envs.sh/fgi.jpg https://envs.sh/fsn.jpg https://envs.sh/fgD.jpg https://envs.sh/fgb.jpg https://envs.sh/fsS.jpg https://envs.sh/fgP.jpg https://envs.sh/fgh.jpg https://envs.sh/fsT.jpg https://envs.sh/fgw.jpg https://envs.sh/fsA.jpg https://envs.sh/fgF.jpg https://envs.sh/fgq.jpg https://envs.sh/fs_.jpg   https://envs.sh/fgt.jpg")).split() #
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002370487322'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002370487322'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
